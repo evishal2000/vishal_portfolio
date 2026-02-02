@@ -23,7 +23,7 @@ export const PhotoAbout = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3 text-slate-400">
                 <Globe size={20} className="text-purple-400" />
-                <span>Available for assignments worldwide</span>
+                <span>Available for assignments</span>
               </div>
               <div className="flex items-center gap-3 text-slate-400">
                 <Camera size={20} className="text-purple-400" />

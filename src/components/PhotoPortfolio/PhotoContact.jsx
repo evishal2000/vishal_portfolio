@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Mail, Instagram, MapPin } from "lucide-react";
 import { photographerInfo } from "../../data/photoData";
 
@@ -25,7 +24,7 @@ export const PhotoContact = () => {
           </a>
 
           <a
-            href={`https://instagram.com/${photographerInfo.instagram}`}
+            href={photographerInfo.instaURL}
             className="p-6 bg-slate-900 border border-slate-800 rounded-2xl hover:border-purple-500/50 transition-all"
           >
             <Instagram className="mx-auto text-purple-400 mb-4" size={32} />

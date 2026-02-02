@@ -3,9 +3,10 @@ export const photographerInfo = {
   title: "Visual Storyteller",
   tagline:
     "Capturing authentic moments and raw emotions through the lens. Specializing in urban landscapes, intimate portraits, and architectural geometry.",
-  email: "photo@elakavishal.com",
-  instagram: "@vishal.lens",
-  location: "Available worldwide",
+  email: "elakavishal@gmail.com",
+  instagram: "lightandlensz",
+  instaURL: "https://www.instagram.com/lightandlensz?igsh=aHlwajI2ZXc1eHgz",
+  location: "US",
   specialties: [
     "Urban Photography",
     "Portraiture",
