@@ -15,7 +15,7 @@ import { TechContact } from "./components/TechPortfolio/Contact";
 import { PhotoHero } from "./components/PhotoPortfolio/PhotoHero";
 import { Gallery } from "./components/PhotoPortfolio/Gallery";
 import { PhotoAbout } from "./components/PhotoPortfolio/PhotoAbout";
-import { Services } from "./components/PhotoPortfolio/Services";
+// import { Services } from "./components/PhotoPortfolio/Services";
 import { PhotoContact } from "./components/PhotoPortfolio/PhotoContact";
 
 // Global Mouse Gradient Component
