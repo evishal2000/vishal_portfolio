@@ -86,7 +86,6 @@ export const Navigation = () => {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center relative z-10">
-          {/* Logo with hover glow */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
