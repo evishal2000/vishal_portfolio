@@ -29,9 +29,9 @@ export const photos = [
     id: 3,
     category: "Architecture",
     src: "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&q=80",
-    title: "Geometric Shadows",
-    location: "Dubai",
-    camera: "Fuji XT-4",
+    title: "Taj",
+    location: "Mumbai, India",
+    camera: "16 pro max",
     description: "Abstract patterns in modern architecture",
   },
   {

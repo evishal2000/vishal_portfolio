@@ -1,3 +1,12 @@
+import urban1 from "../assets/images/photography/urban1.jpg";
+import arch1 from "../assets/images/photography/architecture1.jpg";
+import nature1 from "../assets/images/photography/nature1.jpg";
+import portrait1 from "../assets/images/photography/portrait1.jpg";
+import street1 from "../assets/images/photography/street1.jpg";
+import urban2 from "../assets/images/photography/urban2.jpg";
+import nature2 from "../assets/images/photography/nature2.JPG";
+import arch2 from "../assets/images/photography/arch2.JPG";
+
 export const photographerInfo = {
   name: "Vishal Elaka",
   title: "Visual Storyteller",
@@ -56,7 +65,7 @@ export const photos = [
   {
     id: 1,
     category: "urban",
-    src: "/images/photography/urban-1.jpg",
+    src: urban1,
     title: "Midnight in Manhattan",
     location: "New York, USA",
     camera: "Sony A7R V",
@@ -69,9 +78,9 @@ export const photos = [
   {
     id: 2,
     category: "portrait",
-    src: "/images/photography/portrait-1.jpg",
-    title: "Golden Hour Contemplation",
-    location: "San Francisco, USA",
+    src: portrait1,
+    title: "Golden Hour",
+    location: "Florida, USA",
     camera: "Sony A7R V",
     settings: "85mm, f/1.4, 1/500s, ISO 100",
     description:
@@ -82,35 +91,35 @@ export const photos = [
   {
     id: 3,
     category: "architecture",
-    src: "/images/photography/arch-1.jpg",
-    title: "Geometric Harmony",
-    location: "Dubai, UAE",
-    camera: "Sony A7R V",
+    src: arch1,
+    title: "Taj",
+    location: "Mumbai, India",
+    camera: "16 pro max",
     settings: "16mm, f/8, 1/200s, ISO 100",
     description:
       "The Museum of the Future, exploring the intersection of traditional Islamic geometry and futuristic design.",
     featured: true,
-    year: "2023",
+    year: "2025",
   },
   {
     id: 4,
     category: "street",
-    src: "/images/photography/street-1.jpg",
-    title: "Monsoon Market",
-    location: "Mumbai, India",
+    src: street1,
+    title: "snow",
+    location: "Brooklyn, USA",
     camera: "Sony A7R V",
     settings: "35mm, f/2.0, 1/250s, ISO 800",
     description:
       "Candid street photography during monsoon season. The rain creates natural reflections and mood.",
     featured: false,
-    year: "2023",
+    year: "2026",
   },
   {
     id: 5,
     category: "nature",
-    src: "/images/photography/nature-1.jpg",
-    title: "Alpine Awakening",
-    location: "Swiss Alps",
+    src: nature1,
+    title: "Beachside",
+    location: "Florida",
     camera: "Sony A7R V",
     settings: "70mm, f/5.6, 1/125s, ISO 200",
     description:
@@ -121,15 +130,41 @@ export const photos = [
   {
     id: 6,
     category: "urban",
-    src: "/images/photography/urban-2.jpg",
-    title: "Neon Dreams",
-    location: "Tokyo, Japan",
+    src: urban2,
+    title: " Dreams",
+    location: "Florida",
     camera: "Sony A7R V",
     settings: "35mm, f/1.4, 1/125s, ISO 1600",
     description:
       "Shinjuku at night. The cyberpunk aesthetic of Tokyo is unmatched.",
     featured: false,
     year: "2023",
+  },
+  {
+    id: 7,
+    category: "nature",
+    src: nature2,
+    title: "Beachside",
+    location: "Andaman Islands",
+    camera: "Sony A7R V",
+    settings: "70mm, f/5.6, 1/125s, ISO 200",
+    description:
+      "First light hitting the Matterhorn. Woke up at 4 AM for this shot, absolutely worth it.",
+    featured: true,
+    year: "2024",
+  },
+  {
+    id: 8,
+    category: "architecture",
+    src: arch2,
+    title: "India Gate",
+    location: "Delhi, India",
+    camera: "Canon 200D II",
+    settings: "16mm, f/8, 1/200s, ISO 100",
+    description:
+      "The Museum of the Future, exploring the intersection of traditional Islamic geometry and futuristic design.",
+    featured: true,
+    year: "2022",
   },
 ];
 

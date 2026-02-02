@@ -48,14 +48,17 @@ export const Gallery = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 key={photo.id}
-                onClick={() => setSelectedPhoto(photo)}
+                // onClick={() => setSelectedPhoto(photo)}
                 className="break-inside-avoid group relative overflow-hidden rounded-2xl cursor-pointer bg-slate-800"
               >
-                {/* Placeholder - replace with actual image */}
-                <div className="aspect-[4/3] bg-gradient-to-br from-slate-800 to-slate-700 flex items-center justify-center">
-                  <Camera className="text-slate-600" size={48} />
+                <div className="aspect-[4/3] overflow-hidden">
+                  <img
+                    src={photo.src}
+                    alt={photo.alt || photo.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
-
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all flex flex-col justify-end p-6">
                   <span className="text-purple-400 text-xs font-bold uppercase tracking-wider mb-1">
                     {photo.category}
