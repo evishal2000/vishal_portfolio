@@ -362,7 +362,7 @@ export const Contact = () => {
                             onFocus={() => setFocusedField("email")}
                             onBlur={() => setFocusedField(null)}
                             className={inputClasses("email")}
-                            placeholder="john@example.com"
+                            placeholder="name@example.com"
                           />
                         </div>
                       </div>

@@ -178,7 +178,7 @@ export const TechContact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-3 bg-slate-950 border border-slate-700 rounded-lg text-slate-100 focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Virat Kohli"
                   />
                 </div>
 
