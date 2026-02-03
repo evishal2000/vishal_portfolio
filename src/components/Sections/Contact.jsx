@@ -345,7 +345,7 @@ export const Contact = () => {
                             onFocus={() => setFocusedField("name")}
                             onBlur={() => setFocusedField(null)}
                             className={inputClasses("name")}
-                            placeholder="John Doe"
+                            placeholder="Virat Kohli"
                           />
                         </div>
 
