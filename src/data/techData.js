@@ -27,7 +27,7 @@ export const experiences = [
       "Owned backend service delivery for a customer-facing platform serving 3M+ monthly active users, architecting authentication, notification, and profile management APIs while maintaining 99.9% uptime.",
     achievements: [
       "Reduced API latency from 500ms to p95<150ms through query optimization and caching strategies",
-      "Architected SendGrid notification pipeline handling 100K+ daily emails with idempotency guarantees",
+      "Architected SendGrid notification pipeline handling 100K+ monthly emails with idempotency guarantees",
       "Implemented comprehensive test suite achieving 85%+ code coverage, reducing production incidents by 40%",
       "Mentored 2 junior engineers and established code review best practices across the team",
     ],
@@ -51,7 +51,7 @@ export const experiences = [
     period: "Jul 2022 - Jul 2024",
     location: "Hyderabad, India / Remote",
     description:
-      "Core engineer for healthcare data platform processing 50TB+ daily. Built ETL pipelines, compliance automation, and analytics dashboards used by 200+ internal stakeholders.",
+      "Core engineer for healthcare data platform processing 50TB+ Weekly. Built ETL pipelines, compliance automation, and analytics dashboards used by 200+ internal stakeholders.",
     achievements: [
       "Led Archive & Restore initiative migrating 500TB+ to AWS S3, achieving $40K annual cost savings",
       "Built 30+ production ETL pipelines processing healthcare data with 99.95% accuracy",

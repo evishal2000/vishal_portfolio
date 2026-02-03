@@ -110,7 +110,7 @@ export const TechHero = ({ onNavigate }) => {
             >
               {[
                 { value: "3+", label: "Years Experience" },
-                { value: "50TB+", label: "Data Processed Daily" },
+                { value: "50TB+", label: "Data Processed Weekly" },
                 { value: "3M+", label: "Users Served" },
               ].map((stat, idx) => (
                 <div key={stat.label} className="text-center lg:text-left">
