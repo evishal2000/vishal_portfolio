@@ -183,7 +183,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Yocket Clone – College Admission Platform",
+    title: "OneGrad – College Admission Platform",
     category: "Full Stack Application",
     description:
       "Full-stack college admissions platform supporting 10+ core workflows including search, comparison, onboarding, and application tracking with 15+ REST APIs.",
